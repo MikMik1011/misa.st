@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="main">
+    <article class="post-single cv">
+        <div class="cv-toolbar no-print">
+            <button class="cv-download" onclick="window.print()">
+                Download PDF
+            </button>
+        </div>
+
+        <div class="post-content">{{ .Content }}</div>
+    </article>
+</main>
+{{ end }}

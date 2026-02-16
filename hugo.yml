@@ -16,7 +16,7 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Junior Blockchain Developer"
+    subtitle: "Junior Backend and Web3 Developer"
     imageUrl: "userimg.jpg" 
     imageTitle: "slika mene" 
     imageWidth: 120 
@@ -30,15 +30,4 @@ params:
       - name: instagram
         url: "https://instagram.com/mikmik_1011"
       - name: cv
-        url: "./cv.pdf"
-
-  menu:
-    main:
-    - name: blog
-      identifier: Blog
-      url: https://misa.st/blog
-      weight: 20
-    - name: bgpp
-      identifier: bgpp
-      url: https://bgpp.misa.st
-      weight: 10
+        url: "/cv"
