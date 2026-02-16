@@ -17,17 +17,34 @@ params:
   profileMode:
     enabled: true
     subtitle: "Junior Backend and Web3 Developer"
-    imageUrl: "userimg.jpg" 
-    imageTitle: "slika mene" 
-    imageWidth: 120 
-    imageHeight: 120 
+    imageUrl: "userimg.jpg"
+    imageTitle: "slika mene"
+    imageWidth: 120
+    imageHeight: 120
 
   socialIcons:
-      - name: github
-        url: "https://github.com/MikMik1011"
-      - name: linkedin
-        url: "https://linkedin.com/in/mikmik1011/"
-      - name: instagram
-        url: "https://instagram.com/mikmik_1011"
-      - name: cv
-        url: "/cv"
+    - name: github
+      url: "https://github.com/MikMik1011"
+    - name: linkedin
+      url: "https://linkedin.com/in/mikmik1011/"
+    - name: instagram
+      url: "https://instagram.com/mikmik_1011"
+    - name: email
+      url: "mailto:contact@misa.st"
+
+menu:
+  main:
+    - name: Blog
+      identifier: blog
+      url: /blog/
+      weight: 10
+    - name: CV
+      identifier: cv
+      url: /cv/
+      weight: 20
+    - name: BGPP
+      identifier: bgpp
+      url: https://bgpp.misa.st
+      weight: 30
+      params:
+        external: true
