@@ -2,12 +2,20 @@
 title = 'CV'
 layout = 'cv'
 date = 2026-02-16T17:31:37+01:00 # update this when changing content
-tags = ['cv']
+hideTitle = true
+hideMeta = true
 +++
 
 # Miša Stefanović
 
-Email: contact@misa.st | Website: https://misa.st
+{{< rawhtml >}}
+<div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin:0 0 1rem;">
+  <div>Email: <a href="mailto:contact@misa.st">contact@misa.st</a> | Website: <a href="https://misa.st">https://misa.st</a></div>
+  <ul class="post-tags" style="margin:0;">
+    <li><a href="/cv.pdf" style="background:#1f4b99;color:#fff;border-color:#1f4b99;">Download PDF</a></li>
+  </ul>
+</div>
+{{< /rawhtml >}}
 
 ---
 
@@ -55,8 +63,6 @@ Backend developer and Information Technologies student with 3+ years of experien
 **Technologies:** Svelte, Node.js, Express.js, PostgreSQL, real-time systems
 
 **GitHub:** https://github.com/studentinovisad/indexomator
-
-</br></br></br>
 
 ### BGPP - Unified Public Transport Platform
 **Personal Project** | 2023 - Present
@@ -110,8 +116,6 @@ Backend developer and Information Technologies student with 3+ years of experien
 - Completed independent research project on CS:GO cheating detection using LSTM neural networks
 
 ---
-
-</br></br>
 
 ## Technical Skills
 
