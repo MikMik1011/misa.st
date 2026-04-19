@@ -6,7 +6,7 @@ theme: PaperMod
 params:
   sectionPagesMenu: main
 
-  keywords: [Blog, Portfolio]
+  keywords: [Blog, Portfolio, CV]
   author: "Miša Stefanović"
   DateFormat: "10/11/2003"
   defaultTheme: auto
@@ -16,21 +16,22 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Junior Backend and Web3 Developer"
+    subtitle: "Backend Developer & IT Student"
     imageUrl: "userimg.jpg"
-    imageTitle: "slika mene"
+    imageTitle: "Profile picture"
     imageWidth: 120
     imageHeight: 120
 
   socialIcons:
+    - name: email
+      url: "mailto:contact@misa.st"
     - name: github
       url: "https://github.com/MikMik1011"
     - name: linkedin
       url: "https://linkedin.com/in/mikmik1011/"
-    - name: instagram
-      url: "https://instagram.com/mikmik_1011"
-    - name: email
-      url: "mailto:contact@misa.st"
+    - name: cv
+      url: "/cv.pdf"
+
 
 menu:
   main:
@@ -40,11 +41,10 @@ menu:
       weight: 10
     - name: CV
       identifier: cv
-      url: /cv/
+      url: /cv.pdf
       weight: 20
-    - name: BGPP
-      identifier: bgpp
-      url: https://bgpp.misa.st
-      weight: 30
-      params:
-        external: true
+
+redirects:
+  - from: /cv
+    to: /cv.pdf
+    status: 301

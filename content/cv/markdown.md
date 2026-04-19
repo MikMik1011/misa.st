@@ -1,7 +1,7 @@
 +++
 title = 'CV'
 layout = 'cv'
-date = 2026-04-18T00:00:00+02:00
+date = 2026-04-18T20:10:00+02:00
 hideTitle = true
 hideMeta = true
 +++
@@ -52,12 +52,12 @@ I specialize in backend development with Node.js and Python, API design, and sec
 ---
 
 ### BGPP - Unified Public Transport Platform
-**Personal Project** | 2023 - Present
+**Personal Project** | 2023 - 2026
 
-- Reverse-engineered official transport APIs (JADX, Burp Suite) and built an open-source platform serving 10,000+ monthly requests with 50–80% response size reduction and no user tracking
+- Reverse-engineered official transport APIs (JADX, Burp Suite) and built an open-source platform serving 10,000+ monthly requests with 50–80% response size reduction and no user tracking; retired after the official app blocked third-party API access
 
 **Tech Stack:** JavaScript, Node.js, Express.js, Docker, Redis  
-**GitHub:** https://github.com/MikMik1011/bgpp | **Live:** https://bgpp.misa.st
+**GitHub:** https://github.com/MikMik1011/bgpp
 
 ---
 
