@@ -25,12 +25,13 @@
     min-height: 297mm;
     display: flex;
     flex-direction: column;
-  }
+    height: 297mm;
+}
 
   /* ── Header ── */
   .header {
     background: #1f4b99;
-    padding: 14mm 14mm 12mm;
+    padding: 9mm 14mm 8mm;
     color: white;
   }
 
@@ -91,7 +92,10 @@
     display: grid;
     grid-template-columns: 62mm 1fr;
     flex: 1;
-  }
+    font-size: 9pt;
+    align-items: stretch;
+    min-height: 0;
+}
 
   .left {
     background: #f4f6fb;
@@ -125,7 +129,7 @@
     border-bottom: 1.5px solid #c8d5ef;
     padding-bottom: 4px;
     margin-bottom: 10px;
-    margin-top: 16px;
+    margin-top: 12px;
   }
 
   .left .section-title:first-child,
@@ -135,7 +139,7 @@
 
   /* ── Left entries ── */
   .entry {
-    margin-bottom: 11px;
+    margin-bottom: 8px;
   }
 
   .entry-title {
@@ -167,7 +171,7 @@
 
   /* ── Awards ── */
   .award {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
   }
 
   .award-title {
@@ -186,7 +190,7 @@
 
   /* ── Skills ── */
   .skills-block {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   .skills-label {
@@ -204,8 +208,8 @@
 
   /* ── Right entries ── */
   .right .entry {
-    margin-bottom: 12px;
-    padding-bottom: 12px;
+    margin-bottom: 9px;
+    padding-bottom: 9px;
     border-bottom: 1px solid #f0f0f0;
   }
 
@@ -261,7 +265,7 @@
   }
 
   .entry-desc ul li {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
 
   .entry-link {
@@ -304,8 +308,9 @@
     </div>
     <div class="summary">
       Backend developer with 3+ years of experience shipping production systems used by thousands of users.
-      I enjoy building open-source software that solves real, concrete problems.
-      I specialize in backend development with Node.js and Python, API design, and secure systems architecture.
+      I enjoy building open-source software that solves real, concrete problems, with a deep interest in
+      backend architecture, DevOps, and cybersecurity. My stack revolves around Node.js and Python,
+      with a strong focus on API design and secure systems architecture.
     </div>
   </div>
 
@@ -325,6 +330,7 @@
         <div class="entry-title">B.Sc. Information Technologies</div>
         <div class="entry-sub">Faculty of Sciences,<br>University of Novi Sad</div>
         <div class="entry-date">Oct 2022 – Present</div>
+        <div class="entry-coursework" style="color:#1f4b99; font-weight:600;">GPA 9.67 / 10</div>
         <div class="entry-coursework">Algorithms &amp; Data Structures, Computer Networks, Cryptography, Database Systems, Operating Systems, OOP</div>
       </div>
 
@@ -373,11 +379,6 @@
       <div class="skills-block">
         <div class="skills-label">Security</div>
         <div class="skills-list">OWASP Top 10, Burp Suite, Wireshark, JADX, reverse engineering</div>
-      </div>
-
-      <div class="skills-block">
-        <div class="skills-label">Blockchain</div>
-        <div class="skills-list">Solidity, Ethers.js, ERC20/721/1155, Chainlink, Ethereum, Polygon</div>
       </div>
 
       <div class="section-title">
