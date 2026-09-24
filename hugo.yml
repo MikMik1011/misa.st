@@ -43,6 +43,12 @@ menu:
       identifier: cv
       url: /cv.pdf
       weight: 20
+    - name: BGPP
+      identifier: bgpp
+      url: https://bgpp.misa.st
+      weight: 30
+      params:
+        external: true
 
 redirects:
   - from: /cv
