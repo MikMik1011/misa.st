@@ -16,7 +16,7 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Backend Developer & IT Student"
+    subtitle: "Backend developer interested in cybersecurity and reverse engineering. FOSS enthusiast. BSc in IT, MSc student at PMF, University of Novi Sad."
     imageUrl: "userimg.jpg"
     imageTitle: "Profile picture"
     imageWidth: 120
