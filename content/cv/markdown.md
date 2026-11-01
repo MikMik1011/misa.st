@@ -30,7 +30,9 @@ I specialize in backend development with Node.js and Python, API design, and sec
 ## Education
 
 ### Faculty of Sciences, University of Novi Sad
-**B.Sc. in Information Technologies** | Oct 2022 - Present (Expected 2026) | Novi Sad, Serbia
+**M.Sc. in Computer Science** | Oct 2026 - Present | Novi Sad, Serbia
+
+**B.Sc. in Information Technologies** | Oct 2022 - Oct 2026 | Novi Sad, Serbia
 - Relevant Coursework: Database Systems, Object-Oriented Programming, Computer Networks, Algorithms & Data Structures, Operating Systems, Cryptography
 
 ### Petnica Science Center
