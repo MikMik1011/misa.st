@@ -1,0 +1,6 @@
+/* Keep cover banners from stretching across the whole column. */
+.entry-cover img {
+    width: 100%;
+    max-width: 480px;
+    margin-inline: auto;
+}

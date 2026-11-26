@@ -1,12 +1,18 @@
 +++
 title = 'Pomozi mi da telefonom proveravamo kartice za menzu!'
-date = 2026-11-26T19:16:07+01:00
+date = 2026-11-26T21:00:00+01:00
 draft = false
 description = 'Znaš onaj momenat kad čekaš 5 minuta ispred automata u menzi samo da proveriš da li imaš uplaćen ručak? Šta ako ti kažem da postoji lakši način?'
 tags = ['menzomat', 'testing', 'announcement']
+[cover]
+image = '/menzomat/banner.png'
+alt = 'Menzomat app'
+hiddenInSingle = true
 +++
 
 Već neko vreme radim na Menzomatu, aplikaciji pomoću koje telefonom možeš da pročitaš karticu za menzu i vidiš uplaćene obroke, stanje novca i ostale podatke koji se na njoj nalaze. Za sada aplikacija radi samo na Androidu, ali planiram u budućnosti napraviti i iOS verziju. 
+
+{{< figure src="/menzomat/screenshot-alpha.png" alt="Očitana kartica u menzomatu" width="300" align="center" >}}
 
 Kartica se može čitati bez ključa, ali sam morao mesec dana skenirati, analizirati i zaključivati šta koji bajt na njoj predstavlja, jer sadržaj kartice niko nije dokumentovao.
 
