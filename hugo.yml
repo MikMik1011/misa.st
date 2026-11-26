@@ -3,12 +3,17 @@ languageCode: en-us
 title: Miša Stefanović
 theme: PaperMod
 
+# The only feed that matters is the blog's (/blog/index.xml); the site-wide
+# one would pick up non-blog pages like the CV redirect.
+outputs:
+  home: [HTML]
+
 params:
   sectionPagesMenu: main
 
   keywords: [Blog, Portfolio, CV]
   author: "Miša Stefanović"
-  DateFormat: "10/11/2003"
+  DateFormat: "2006/01/02"
   defaultTheme: auto
 
   label:
@@ -31,6 +36,8 @@ params:
       url: "https://linkedin.com/in/mikmik1011/"
     - name: cv
       url: "/cv.pdf"
+    - name: rss
+      url: "/blog/index.xml"
 
 
 menu:

@@ -1,0 +1,4 @@
+{{- /* Advertise the blog feed on every page (PaperMod only links the current page's own feed, so posts and home would have none). The blog list page already gets one from the theme. */ -}}
+{{- if not (and .IsSection (eq .Section "blog")) }}
+<link rel="alternate" type="application/rss+xml" href="{{ "blog/index.xml" | absURL }}" title="{{ site.Title }} – Blog">
+{{- end }}
